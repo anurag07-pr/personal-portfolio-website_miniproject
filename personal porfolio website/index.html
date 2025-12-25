@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(28, 1, 45);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            height: 80px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(47, 5, 77);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .left {
+            font-size: 1.4rem;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+        }
+
+        nav ul li a:hover {
+            color: rgb(133, 41, 218);
+            font-size: 1.07rem;
+            text-decoration: underline;
+
+        }
+
+        .left {
+            font-size: 1.3rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px;
+            margin-bottom: 7vw;
+            align-items: center;
+
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            /* background-color: red; */
+            margin: 36px;
+            width: 50%;
+            font-size: 2.2rem;
+
+        }
+
+        .leftsection .btn {
+            color: white;
+            background: #1e2167;
+            border: 2px solid white;
+            border-radius: 13px;
+            cursor: pointer;
+            padding: 5px 7px;
+        }
+
+        .leftsection .btn:hover {
+            border: 2.6px solid rgb(133, 41, 218);
+            border-radius: 13.9px;
+            padding: 7px 9px;
+        }
+
+        .rightsection {
+            width: 50%;
+        }
+
+        .rightsection img {
+            width: 95%;
+        }
+
+        .purple {
+            color: rgb(133, 41, 218);
+            font-weight: 700;
+            /* font-style: italic; */
+        }
+
+        #element {
+            color: rgb(133, 41, 218);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 60vh;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 20px 84px;
+        }
+
+        .text-gray {
+            color: gray;
+            margin-left: 152px;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 160vh;
+            height: 2px;
+            margin-top: 46px;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            background: white;
+            width: 2px;
+            height: 70px;
+            /* display: flex; */
+            margin-top: 0;
+            margin-left: 104px;
+            margin-right: 102px;
+
+        }
+
+        .image-top {
+            width: 43px;
+            margin-top: -43px;
+            margin-left: -16px;
+            /* margin-bottom: 32px; */
+            position: relative;
+            display: flex;
+        }
+
+        .vertical-text {
+            position: relative;
+            margin-top: 67px;
+            width: 150px;
+        }
+
+        .vertical-text:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.03rem;
+        }
+
+        .vertical-desc {
+            width: 169px;
+            font-size: 0.7rem;
+            color: gray;
+            margin-top: 14px;
+        }
+
+        .vertical-desc:hover {
+            font-size: 0.74rem;
+        }
+
+        .footer {
+            background: linear-gradient(180deg, #13051c, #14061d);
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px 0;
+        }
+
+
+        .footerbox {
+            margin-top: 20px;
+        }
+
+        .footerbox ul {
+            list-style: none;
+
+        }
+
+        .footer1h3 {
+            margin-top: 40px;
+            /* color: violet; */
+        }
+
+        .footerh3 {
+            color: rgb(148, 67, 229);
+
+        }
+
+        footer {
+            background: linear-gradient(180deg, #13051c, #14061d);
+        }
+
+        .footer-rights {
+            text-align: center;
+            padding: 12px 0;
+            color: gray;
+            font-size: 0.81rem;
+            border-top: 1px solid #3a2350;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Anurag's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact Me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Anurag</span>
+                <div>and I am a passionate</div>
+                <!-- <div>Web developer</div> -->
+                <span id="element"></span>
+                <div class="button">
+                    <a href="Resume Anurag.pdf" download=""><button class="btn">Download Resume</button></a>
+                    <a href="https://github.com/anurag07-pr" target="_blank"><button class="btn">Visit
+                            Github</button></a>
+
+                </div>
+
+            </div>
+
+            <div class="rightsection">
+                <img src="bg1.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <span class="text-gray">What I have done so far</span>
+        <section class="secondsection">
+            <h2>Work Experiences</h2>
+            <div class="box">
+                <div class="vertical">
+                    <img class='image-top' src="bg.png" alt="">
+                    <div class="vertical-text">
+                        Video Editor (2019-2023)
+                        <div class="vertical-desc">I started video editting in 2019 for my basic need but after that
+                            it's gaining my intrest therefore I decided to learn Video editting.</div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class='image-top' src="Graphic Designer.png" alt="">
+                    <div class="vertical-text">
+                        Graphic Designing (2019-2023)
+                        <div class="vertical-desc">Apart from video editting I started learing Graphic Designing
+                            Parallaly for making thumbnails & Posters.</div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class='image-top' src="htmlcssjs.png" alt="">
+                    <div class="vertical-text">
+                        Html,CSS & JS (2024-2025)
+                        <div class="vertical-desc">In my Engineering I decided to learn FullSatck Although Html, Css &
+                            Js is Basic part of Fullstack so here i learn these three.</div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class='image-top' src="react.png" alt="">
+                    <div class="vertical-text">
+                        Frontend (2024-2025)
+                        <div class="vertical-desc">As I discussed already i want to learn FullSatck So Frontend is also
+                            necessary that's Why I leart React</div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class='image-top' src="nodejs.png" alt="">
+                    <div class="vertical-text">
+                        Backend (2025-2026)
+                        <div class="vertical-desc">And here i m learning Backend not completely but yes I started.....
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footerbox">
+                <h3 class="footer1h3">Anurag Developer Portfolio</h3>
+            </div>
+            <div class="footerbox">
+                <h3 class="footerh3">Quick Links</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footerbox">
+                <h3 class="footerh3">Skills</h3>
+                <p>HTML •CSS •JS •React •Node.js</p>
+                <p>Video editting • Graphic Designer</p>
+            </div>
+            <div class="footerbox">
+                <h3 class="footerh3">Contact</h3>
+                <p class="contact">Mobile no : +917906352821</p>
+                <p class="contact">Email id : dhangaranurag62@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &copy; 2025 Anurag Developer's | All rights reserved.
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', ' Web Designer', 'Graphic Designer', 'Video Editor.'],
+            typeSpeed: 100,
+        });
+    </script>
+</body>
+
+</html>
